@@ -181,18 +181,18 @@ button:focus {
   -ms-user-select: none;
   user-select: none;
 }
-.calendar-table::before{
-    background: url('Screenshot\ 2022-03-30\ 234145.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    content: '';
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.3;
+.calendar-table::before {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3;
 }
 th[colspan="7"] {
   position: relative;
